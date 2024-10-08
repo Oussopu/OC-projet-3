@@ -1,0 +1,111 @@
+/****** CSS Reset simple ******/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/****** Header ******/
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  width: 100%;
+  h1 {
+    font-size: 30px;
+    font-family: "Shrikhand";
+  }
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #eaeaea;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  p {
+    font-size: 16px;
+    font-family: "Roboto";
+  }
+  img {
+    height: 16px;
+    margin-right: 5%;
+  }
+}
+
+.discover {
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  h2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 24px;
+  }
+  p {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .explore_button {
+    font-family: "Roboto";
+    height: 50px;
+    background-color: #ff79da;
+    border-radius: 25%;
+  }
+}
