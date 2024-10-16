@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) {
+  .location img {
+    margin-right: 2vh;
+  }
+  .footer {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .footer .footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    height: 100px;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  .discover {
+    height: 230px;
+    padding: 30px 10%;
+    gap: 20px;
+  }
+  .discover h2 {
+    font-size: 40px;
+  }
+  .operation {
+    height: 230px;
+    gap: 25px;
+    padding: 50px 12.5%;
+  }
+  .operation .fields {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+  .operation .fields .field {
+    width: 31%;
+  }
+  .restaurant {
+    height: 670px;
+    padding: 30px 12.5%;
+    display: flex;
+    gap: 25px;
+  }
+  .restaurant .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .restaurant .cards .card {
+    width: 45%;
+  }
+  .footer {
+    height: 115px;
+    width: 100%;
+    padding: 64px 2% 30px 30%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .footer_links {
+    flex-direction: row;
+    width: 150%;
+  }
+  .footer .footer_links div:nth-child(2) {
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 1224px) {
+  .footer {
+    padding: 64px 2% 30px 40%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

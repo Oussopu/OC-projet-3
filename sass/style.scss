@@ -96,7 +96,7 @@ table {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  animation: fade 3s forwards;
+  animation: fade 0001ms forwards;
   .loader_green {
     position: absolute;
     border-radius: 50%;
@@ -234,7 +234,7 @@ header {
       .number {
         display: flex;
         position: relative;
-        left: -5%;
+        left: -1vh;
         justify-content: center;
         height: 24px;
         width: 24px;
@@ -266,65 +266,69 @@ header {
     font-weight: bold;
     font-size: 24px;
   }
-  .card {
-    height: 251px;
-    border-radius: 15px;
-    background-color: #ffffff;
-    .card_img,
-    .card_img img {
-      height: 174px;
-      width: 100%;
-      object-fit: cover;
-      border-radius: 15px 15px 0 0;
-    }
-    .new {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      top: -160px;
-      left: 70%;
-      height: 29px;
-      width: 25%;
-      font-size: 14px;
-      font-family: "Roboto";
-      font-weight: 500;
-      color: #008766;
-      background-color: #99e2d0;
-      border-radius: 2px;
-    }
-
-    .card_information {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 5% 0 5%;
-      .card_titles {
-        height: 77px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        h3 {
-          font-size: 18px;
-          font-family: "Roboto";
-          font-weight: bold;
-        }
-        p {
-          font-size: 17px;
-          font-family: "Roboto";
-          font-weight: 300;
-        }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    .card {
+      height: 251px;
+      border-radius: 15px;
+      background-color: #ffffff;
+      .card_img,
+      .card_img img {
+        height: 174px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px 15px 0 0;
       }
-      .favorite:hover {
-        .favorite_1 {
-          display: none;
+      .new {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -160px;
+        left: 70%;
+        height: 29px;
+        width: 25%;
+        font-size: 14px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: #008766;
+        background-color: #99e2d0;
+        border-radius: 2px;
+      }
+      .card_information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5% 0 5%;
+        .card_titles {
+          height: 77px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h3 {
+            font-size: 18px;
+            font-family: "Roboto";
+            font-weight: bold;
+          }
+          p {
+            font-size: 17px;
+            font-family: "Roboto";
+            font-weight: 300;
+          }
+        }
+        .favorite:hover {
+          .favorite_1 {
+            display: none;
+          }
+          .favorite_2 {
+            display: flex;
+          }
         }
         .favorite_2 {
-          display: flex;
+          display: none;
         }
-      }
-      .favorite_2 {
-        display: none;
       }
     }
   }
@@ -348,6 +352,9 @@ header {
     font-family: "Roboto";
     font-weight: 300;
   }
+  .footer_links div:nth-child(1) p, .footer_links div:nth-child(2) p{
+    font-weight: 400;
+}
   .footer_info {
     display: flex;
     align-items: center;
