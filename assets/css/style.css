@@ -92,7 +92,7 @@ table {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  animation: fade 1ms forwards;
+  animation: fade 3s forwards;
 }
 .loader_window .loader_green {
   position: absolute;
