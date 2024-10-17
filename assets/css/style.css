@@ -83,6 +83,22 @@ table {
     transform: rotate(360deg) translateX(100px);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .loader_window {
   position: fixed;
   height: 100%;
@@ -314,14 +330,26 @@ header h1 {
   font-family: "Roboto";
   font-weight: 300;
 }
+.restaurant .cards .card .card_information .favorite {
+  cursor: pointer;
+}
 .restaurant .cards .card .card_information .favorite:hover .favorite_1 {
-  display: none;
+  opacity: 0;
 }
 .restaurant .cards .card .card_information .favorite:hover .favorite_2 {
-  display: flex;
+  opacity: 1;
 }
 .restaurant .cards .card .card_information .favorite_2 {
-  display: none;
+  position: relative;
+  top: -10px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.restaurant .cards .card .card_information .favorite_1 {
+  position: relative;
+  top: 11px;
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 .footer {
