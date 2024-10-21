@@ -1,0 +1,80 @@
+@media screen and (min-width: 375px) {
+    .menu {
+        .restaurant_title{
+            h2 {
+                font-size: 28px;
+            }
+        }
+    
+        .starter, .main, .dessert {
+            .first_option, .second_option, .third_option, .fourth_option {
+                .description {
+                    h4 {
+                        font-size: 18px;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        margin: 0 5% 0 5%;
+        align-items: center;
+        .restaurant_title{
+            justify-content: center;
+            h2 {
+                padding-right: 3vh;
+            }
+        }
+        .starter, .main, .dessert {
+            width: 60%;
+            .title {
+                .title_line {
+                    width: 5vh;
+                }
+            }
+        }
+    }
+    .footer {
+        flex-direction: row-reverse;
+        align-items: center;
+        .footer_links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu {
+        margin: 0 15% 0 15%;
+    }
+    .footer {
+        height: 115px;    
+        width: 100%;
+        padding: 64px 2% 30px 30%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        .footer_links {
+            flex-direction: row;
+            width: 150%;
+        }
+        .footer_links div:nth-child(2) {
+            padding-right: 5%;
+        }
+    }
+}
+
+@media screen and (min-width: 1224px) {
+    .footer {
+        padding: 64px 2% 30px 41%;
+    }
+}
