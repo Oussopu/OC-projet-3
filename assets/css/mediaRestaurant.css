@@ -1,0 +1,65 @@
+@media screen and (min-width: 375px) {
+  .menu .restaurant_title h2 {
+    font-size: 28px;
+  }
+  .menu .starter .first_option .description h4, .menu .starter .second_option .description h4, .menu .starter .third_option .description h4, .menu .starter .fourth_option .description h4, .menu .main .first_option .description h4, .menu .main .second_option .description h4, .menu .main .third_option .description h4, .menu .main .fourth_option .description h4, .menu .dessert .first_option .description h4, .menu .dessert .second_option .description h4, .menu .dessert .third_option .description h4, .menu .dessert .fourth_option .description h4 {
+    font-size: 58px;
+  }
+  .menu .starter .first_option .description p, .menu .starter .second_option .description p, .menu .starter .third_option .description p, .menu .starter .fourth_option .description p, .menu .main .first_option .description p, .menu .main .second_option .description p, .menu .main .third_option .description p, .menu .main .fourth_option .description p, .menu .dessert .first_option .description p, .menu .dessert .second_option .description p, .menu .dessert .third_option .description p, .menu .dessert .fourth_option .description p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu {
+    margin: 0 5% 0 5%;
+    align-items: center;
+  }
+  .menu .restaurant_title {
+    justify-content: center;
+  }
+  .menu .restaurant_title h2 {
+    padding-right: 3vh;
+  }
+  .menu .starter, .menu .main, .menu .dessert {
+    width: 60%;
+  }
+  .menu .starter .title .title_line, .menu .main .title .title_line, .menu .dessert .title .title_line {
+    width: 5vh;
+  }
+  .footer {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .footer .footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu {
+    margin: 0 15% 0 15%;
+  }
+  .footer {
+    height: 115px;
+    width: 100%;
+    padding: 64px 2% 30px 30%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .footer_links {
+    flex-direction: row;
+    width: 150%;
+  }
+  .footer .footer_links div:nth-child(2) {
+    padding-right: 5%;
+  }
+}
+@media screen and (min-width: 1224px) {
+  .footer {
+    padding: 64px 2% 30px 41%;
+  }
+}
+
+/*# sourceMappingURL=mediaRestaurant.css.map */
