@@ -3,7 +3,7 @@
     font-size: 28px;
   }
   .menu .starter .first_option .description h4, .menu .starter .second_option .description h4, .menu .starter .third_option .description h4, .menu .starter .fourth_option .description h4, .menu .main .first_option .description h4, .menu .main .second_option .description h4, .menu .main .third_option .description h4, .menu .main .fourth_option .description h4, .menu .dessert .first_option .description h4, .menu .dessert .second_option .description h4, .menu .dessert .third_option .description h4, .menu .dessert .fourth_option .description h4 {
-    font-size: 58px;
+    font-size: 18px;
   }
   .menu .starter .first_option .description p, .menu .starter .second_option .description p, .menu .starter .third_option .description p, .menu .starter .fourth_option .description p, .menu .main .first_option .description p, .menu .main .second_option .description p, .menu .main .third_option .description p, .menu .main .fourth_option .description p, .menu .dessert .first_option .description p, .menu .dessert .second_option .description p, .menu .dessert .third_option .description p, .menu .dessert .fourth_option .description p {
     font-size: 15px;
