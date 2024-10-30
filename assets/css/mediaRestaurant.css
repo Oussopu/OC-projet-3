@@ -8,6 +8,9 @@
   .menu .starter .first_option .description p, .menu .starter .second_option .description p, .menu .starter .third_option .description p, .menu .starter .fourth_option .description p, .menu .main .first_option .description p, .menu .main .second_option .description p, .menu .main .third_option .description p, .menu .main .fourth_option .description p, .menu .dessert .first_option .description p, .menu .dessert .second_option .description p, .menu .dessert .third_option .description p, .menu .dessert .fourth_option .description p {
     font-size: 15px;
   }
+  .menu .starter .first_option .save_box .price, .menu .starter .second_option .save_box .price, .menu .starter .third_option .save_box .price, .menu .starter .fourth_option .save_box .price, .menu .main .first_option .save_box .price, .menu .main .second_option .save_box .price, .menu .main .third_option .save_box .price, .menu .main .fourth_option .save_box .price, .menu .dessert .first_option .save_box .price, .menu .dessert .second_option .save_box .price, .menu .dessert .third_option .save_box .price, .menu .dessert .fourth_option .save_box .price {
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .menu {

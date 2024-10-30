@@ -182,6 +182,11 @@ header h1 {
   align-items: center;
   justify-content: center;
 }
+.menu .starter .first_option .save_box .price, .menu .starter .second_option .save_box .price, .menu .starter .third_option .save_box .price, .menu .starter .fourth_option .save_box .price, .menu .main .first_option .save_box .price, .menu .main .second_option .save_box .price, .menu .main .third_option .save_box .price, .menu .main .fourth_option .save_box .price, .menu .dessert .first_option .save_box .price, .menu .dessert .second_option .save_box .price, .menu .dessert .third_option .save_box .price, .menu .dessert .fourth_option .save_box .price {
+  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 13px;
+}
 .menu .starter .first_option .save_box .save, .menu .starter .second_option .save_box .save, .menu .starter .third_option .save_box .save, .menu .starter .fourth_option .save_box .save, .menu .main .first_option .save_box .save, .menu .main .second_option .save_box .save, .menu .main .third_option .save_box .save, .menu .main .fourth_option .save_box .save, .menu .dessert .first_option .save_box .save, .menu .dessert .second_option .save_box .save, .menu .dessert .third_option .save_box .save, .menu .dessert .fourth_option .save_box .save {
   display: flex;
   background-color: #99E2D0;

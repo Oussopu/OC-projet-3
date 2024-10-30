@@ -183,6 +183,11 @@ header {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                .price {
+                  font-weight: bold;
+                  font-family: "Roboto";
+                  font-size: 13px;
+                }
                 .save {
                     display: flex;
                     background-color: #99E2D0;
